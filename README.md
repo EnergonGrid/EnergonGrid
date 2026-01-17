@@ -7,7 +7,7 @@ Discrete progression. Deterministic guardrails.
 
 Built on Flare mainnet.  
 Progression is height-based and time-guarded.  
-Observation is on-chain.
+Observation is state-based and on-chain.
 
 ### Links
 - dApp (Mint · Dashboard · Observer): https://energon-dapp.vercel.app
