@@ -1,16 +1,14 @@
-## Hi there 👋
+## Energon
 
-<!--
-**EnergonGrid/EnergonGrid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Energon is a live on-chain system.  
+Discrete progression. Deterministic guardrails.  
 
-Here are some ideas to get you started:
+**One wallet. One cube. One guardian.**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Built on Flare mainnet.  
+Progression is height-based and time-guarded.  
+Observation is on-chain.
+
+### Links
+- dApp (Mint · Dashboard · Observer): https://energon-dapp.vercel.app
+- Site: https://energon-site.vercel.app
