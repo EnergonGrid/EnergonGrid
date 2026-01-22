@@ -1,14 +1,9 @@
-## Energon
+Energon is a live on-chain protocol on Flare Mainnet.
 
-Energon is a live on-chain system.  
-Discrete progression. Deterministic guardrails.  
+Discrete progression. Deterministic guardrails.
+All state transitions are observable and verifiable on-chain.
 
-**One wallet. One cube. One guardian.**
+One wallet. One cube. One guardian.
 
-Built on Flare mainnet.  
-Progression is height-based and time-guarded.  
-Observation is state-based and on-chain.
-
-### Links
-- dApp (Mint · Dashboard · Observer): https://energon-dapp.vercel.app
-- Site: https://energon-site.vercel.app
+Energon enforces identity as state, not strategy.
+Observation precedes action.
