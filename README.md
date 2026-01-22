@@ -1,9 +1,7 @@
-Energon is a live on-chain protocol on Flare Mainnet.
+ENERGON is live on Flare Mainnet.
 
-Discrete progression. Deterministic guardrails.
-All state transitions are observable and verifiable on-chain.
+A state-based system: discrete progression, deterministic guardrails, and fully observable transitions.
 
 One wallet. One cube. One guardian.
 
-Energon enforces identity as state, not strategy.
 Observation precedes action.
