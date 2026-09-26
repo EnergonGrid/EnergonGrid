@@ -2,115 +2,100 @@
 
 ENERGON is a deterministic, state-driven protocol live on Flare Mainnet.
 
-It is designed to persist without optimization, incentives, or discretionary governance.
+It is designed around fixed on-chain rules, finite supply, verifiable identity, and observable protocol state.
+
+**One Wallet · One Cube · One Guardian**
 
 ---
 
 ## Overview
 
-ENERGON replaces yield-driven mechanics with immutable progression rules derived entirely from on-chain state.
+ENERGON is built around a simple principle:
 
-The protocol introduces:
-- **EON** — a finite energy unit (ERC-20)
-- **EnergonCube** — a capped identity primitive (ERC-721)
-- **EnergonController** — a state computation and enforcement layer
+**State over strategy.**
 
-All protocol behavior is observable, auditable, and non-reactive.
+The protocol does not rely on off-chain schedulers, hidden automation, discretionary monetary policy, or governance-driven changes to its core mathematics.
 
-ENERGON does not promise returns.  
-It does not adapt to markets.  
-It exists as a long-lived protocol artifact.
+Its behavior is derived from public blockchain state and predefined contract rules.
 
----
+The live core consists of:
 
-## Design Principles
-
-ENERGON is built on the following principles:
-
-- State over strategy  
-- Observation over optimization  
-- Determinism over discretion  
-- Finality over governance flexibility  
-- Persistence over growth  
-
-The protocol intentionally avoids:
-- Yield incentives
-- Farming mechanics
-- Off-chain schedulers
-- Cron jobs
-- Third-party automation
-- Governance-controlled monetary policy
-
-All meaningful behavior is anchored to on-chain, verifiable state.
+- **Energon Token (EON)** — finite ERC-20 protocol token with a maximum supply of 30,000,000 EON
+- **EnergonCube** — ERC-721 Guardian identity primitive capped at 1,000,000 Cubes
+- **EnergonController** — deterministic protocol state and progression layer
 
 ---
 
-## Protocol Architecture
+## Guardian Identity
 
-ENERGON consists of a minimal, immutable contract stack:
+Guardian state is determined directly from EnergonCube ownership.
 
-- **EnergonToken (EON)**  
-  ERC-20 utility token with a hard-capped supply of 30,000,000 EON, deterministic emissions, fixed halving schedule, and genesis-bounded burn logic.
+**0 Cubes → SILENT**  
+**1 Cube → COHERENT**  
+**2+ Cubes → FRACTURED**
 
-- **EnergonCube**  
-  ERC-721 identity NFT with a maximum supply of 1,000,000 units and a strict one-cube-per-wallet constraint.
-
-- **EnergonController**  
-  Computes global protocol state (Energon Height), enforces progression eligibility, and regulates cooldowns.  
-  The controller executes no automated actions and relies solely on explicit interaction and on-chain reads.
-
----
-
-## Genesis & Time Anchoring
-
-ENERGON defines genesis exclusively by on-chain contract deployment.
-
-**Protocol Genesis:**  
-December 20, 2025 · 23:07 (UTC)
-
-This timestamp is immutable and serves as the sole reference for:
-- emissions
-- halving epochs
-- burn duration
-- terminal supply conditions
-
-UI launches or ecosystem milestones do not affect protocol time.
-
----
-
-## Identity Model
-
-ENERGON enforces a permanent identity constraint:
+The protocol law is:
 
 **One Wallet · One Cube · One Guardian**
 
-Cubes do not generate yield, confer governance rights, or provide upgrade paths.  
-They establish identity, not control.
+The Cube establishes identity within the Energon system. It does not create governance rights or alter the underlying protocol rules.
 
-State interpretation:
-- 0 cubes → no participation
-- 1 cube → coherent state
-- 2+ cubes → fractured state
+---
 
-This is not a recommendation or preference.  
-It is an enforced condition.
+## Protocol Principles
+
+ENERGON favors:
+
+- State over strategy
+- Observation over optimization
+- Determinism over discretion
+- Verifiability over trust
+- Persistence over short-term growth
+
+The core protocol does not depend on off-chain triggers or automated schedulers to determine state.
+
+---
+
+## Genesis
+
+**Protocol Genesis**
+
+December 20, 2025 · 23:07 UTC
+
+Genesis anchors Energon protocol time, including block progression, burn duration, halving intervals, and other deterministic timing rules.
+
+Interface updates and future ecosystem components do not redefine genesis.
 
 ---
 
 ## Governance
 
-ENERGON minimizes governance by design.
+ENERGON minimizes discretionary governance by design.
 
-Governance cannot modify:
-- token supply
-- halving schedules
-- burn parameters
-- genesis timestamp
-- emission termination conditions
-- Energon Height computation
+Core protocol mathematics are fixed by the deployed contracts.
 
-Permitted governance scope is limited to documentation and interface evolution.  
-Protocol math is final.
+Administrative ownership does not provide the ability to rewrite:
+
+- EON maximum supply
+- protocol genesis
+- halving interval
+- burn constants
+- Energon Height mathematics
+- Guardian coherence rules
+
+If documentation and deployed contracts ever differ, the deployed contracts are the source of truth.
+
+---
+
+## Current State
+
+The Energon core protocol is live on **Flare Mainnet**.
+
+This profile documents the current verified core.
+
+Additional protocol components will be added here only after they are deployed and verified.
+
+For contracts, interfaces, documentation, branding, and technical resources, see the **pinned repositories below**.
 
 ---
 
@@ -118,11 +103,20 @@ Protocol math is final.
 
 ENERGON is intentionally finite.
 
-By fixing identity, energy, time, and decay, the protocol becomes predictable, auditable, non-reactive, and long-lived.
+Identity is bounded.
 
-The protocol does not interpret intent.  
+Supply is bounded.
+
+Protocol time is anchored.
+
+State is observable.
+
+Rules are deterministic.
+
+The protocol does not interpret intent.
+
 It reads state.
 
-Observation precedes action.
+**One Wallet · One Cube · One Guardian**
 
-Minimal surface. Observable state. ENERGON.
+**Minimal surface. Observable state. ENERGON.**
