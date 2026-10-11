@@ -89,13 +89,60 @@ If documentation and deployed contracts ever differ, the deployed contracts are 
 
 ## Current State
 
-The Energon core protocol is live on **Flare Mainnet**.
+The Energon ecosystem is live on **Flare Mainnet**.
 
-This profile documents the current verified core.
+The deployed and verified protocol stack consists of:
 
-Additional protocol components will be added here only after they are deployed and verified.
+### Core Protocol
 
-For contracts, interfaces, documentation, branding, and technical resources, see the **pinned repositories below**.
+- **Energon Token (EON)**  
+  `0x9458Cbb2e7DafFE6b3cf4d6F2AC75f2d2e0F7d79`
+
+- **EnergonController**  
+  `0xc737bDcA9aFc57a1277480c3DFBF5bdbEcb54BB6`
+
+- **EnergonCube**  
+  `0x30e1076bDf2B123B54486C2721125388af2d2061`
+
+### Energon Ecosystem
+
+- **Energon EVault v5.8.0**  
+  `0x4f4C84321f83f77e95359e16f472b130Ed15EF04`
+
+- **Energon Network v1.0.0**  
+  `0x6c0bB202a4AF3126E21BbaD6c4D79A8DD41Cc5aC`
+
+- **Energon NFT System v1.0.0**  
+  `0xE542801A7F82c5E0D40a02e72EB5d40AB25C067c`
+
+- **Energon Node Registry v2.1.0**  
+  `0x834F79cdDc43CF231bFe7b1abC622ceF7Cbe14a5`
+
+- **Energon NFT Delivery v1.0.0**  
+  `0xe946d9892E54A7F09e373894e8A478aa793bEcB0`
+
+- **Energon Service Resolution v1.0.0**  
+  `0xE24b8f0D1a85b567b565322074A0f157EaE6053A`
+
+- **Energon Established Mark v1.0.0**  
+  `0x28525B92678Bd3AFA5825b45421842bfA46DFdBa`
+
+All addresses above are deployed on **Flare Mainnet — Chain ID 14**.
+
+The EVault, Network, NFT System, Node Registry, NFT Delivery,
+Service Resolution, and Established Mark have completed deployment
+verification against their production artifacts and immutable
+Mainnet bindings.
+
+The Energon Project Adapter is not a standalone protocol deployment.
+Project Adapters are created through `EnergonNetwork.createNode()`
+when a project enters the Network.
+
+If documentation, frontend presentation, and deployed contracts ever
+differ, the deployed contracts remain the source of truth.
+
+For contracts, interfaces, documentation, branding, and technical
+resources, see the **pinned repositories below**.
 
 ---
 
