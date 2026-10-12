@@ -26,48 +26,6 @@ The live core consists of:
 
 ---
 
-## EnergonGrid Architecture
-
-**EnergonGrid is the umbrella for the entire Energon ecosystem — not another name for EVault.**
-
-The ecosystem is organized into three distinct layers:
-
-| Layer | Components | Responsibility |
-| --- | --- | --- |
-| **1 · ENERGON — Core Protocol** | EON, EnergonCube, EnergonController | Finite supply, Guardian identity and coherence, and deterministic protocol progression |
-| **2 · EMP / Energon EVault — Economic Layer** | Energon Management Protocol (EMP) documentation; deployed EVault | Reserve protections, claims, exchanges, eligibility, and payout constraints as enforced on-chain |
-| **3 · EPA / Energon Network — Integration Layer** | Energon Network, project-specific Energon Project Adapters (EPAs), and associated network components | Project entry, adapter creation, registry and service infrastructure according to deployed contracts |
-
-**Important distinctions:**
-
-- **EMP** stands for **Energon Management Protocol**; it is not another contract name for EVault.
-- **Energon Network** is deployed infrastructure; **EPA** refers to project-specific adapters created through `EnergonNetwork.createNode()`. There is no single global EPA contract address.
-- **EnergonGrid** includes all three layers as well as the website, DApp, dashboard, observer, and other interfaces. The interfaces display or request actions subject to the deployed contracts; they do not override protocol rules.
-
-### EMP / EVault
-
-EVault is the separately deployed economic component. Its constraints and claim lifecycle belong to its own contract, not to the controller or a frontend.
-
-- [EVault architecture and documentation](docs/evault.md)
-- Recorded mainnet EVault: `0x4f4C84321f83f77e95359e16f472b130Ed15EF04`
-
-### EPA / Energon Network
-
-The Network is the infrastructure for project integration, with Project Adapters created as part of Network entry rather than representing one standalone global deployment.
-
-- [Energon Network and EPA architecture](docs/network.md)
-- Recorded mainnet Network: `0x6c0bB202a4AF3126E21BbaD6c4D79A8DD41Cc5aC`
-
-### Applications and Interfaces
-
-- [Energon DApp](https://github.com/EnergonGrid/energon-dapp) — frontend surfaces for on-chain interaction and observation
-- [Energon site](https://github.com/EnergonGrid/energon-site) — protocol information and publications
-- [Energon Brand Kit](https://github.com/EnergonGrid/energon-brand-kit) — canonical branding and integration assets
-
-No repository description, UI, or documentation can change deployed mainnet contract behavior.
-
----
-
 ## Guardian Identity
 
 Guardian state is determined directly from EnergonCube ownership.
